@@ -1,0 +1,14 @@
+.react-mde-dropdown li p {
+  font-weight: bold;
+  line-height: 1em;
+  background: none;
+  border: 0;
+  text-align: left; }
+  .react-mde-dropdown li p:hover {
+    color: #4078c0; }
+  .react-mde-dropdown li p.header-1 {
+    font-size: 20px; }
+  .react-mde-dropdown li p.header-2 {
+    font-size: 18px; }
+  .react-mde-dropdown li p.header-3 {
+    font-size: 14px; }

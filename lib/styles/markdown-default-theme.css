@@ -1,0 +1,89 @@
+.mde-preview p, .mde-preview blockquote, .mde-preview ul, .mde-preview ol, .mde-preview dl, .mde-preview table, .mde-preview pre {
+  margin-top: 0;
+  margin-bottom: 16px; }
+
+.mde-preview h1, .mde-preview h2, .mde-preview h3, .mde-preview h4, .mde-preview h5, .mde-preview h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25; }
+
+.mde-preview h1 {
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid #eee; }
+
+.mde-preview h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #eee; }
+
+.mde-preview ul, .mde-preview ol {
+  padding-left: 2em; }
+
+.mde-preview blockquote {
+  margin-left: 0;
+  padding: 0 1em;
+  color: #777;
+  border-left: 0.25em solid #ddd; }
+  .mde-preview blockquote > :first-child {
+    margin-top: 0; }
+  .mde-preview blockquote > :last-child {
+    margin-bottom: 0; }
+
+.mde-preview code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 90%;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px; }
+  .mde-preview code::before, .mde-preview code::after {
+    letter-spacing: -0.2em;
+    content: "\00a0"; }
+
+.mde-preview pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px; }
+  .mde-preview pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0; }
+    .mde-preview pre code::before, .mde-preview pre code::after {
+      content: none; }
+  .mde-preview pre > code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0; }
+
+.mde-preview a {
+  color: #4078c0;
+  text-decoration: none; }
+  .mde-preview a:hover {
+    text-decoration: underline; }
+
+.mde-preview > *:first-child {
+  margin-top: 0 !important; }
+
+.mde-preview > *:last-child {
+  margin-bottom: 0 !important; }
+
+.mde-preview::after {
+  display: table;
+  clear: both;
+  content: ""; }

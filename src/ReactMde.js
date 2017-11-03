@@ -71,7 +71,7 @@ class ReactMde extends Component {
         if (commands) {
             header = (<div className="mde-header">
                 {
-                    commands.map((cg, i) => <HeaderGroup key={i}>
+                    commands.map((cg, i) => (<HeaderGroup key={i}>
                         {
                             cg.map((c, j) => {
                                 if (c.type === 'dropdown') {
@@ -85,7 +85,7 @@ class ReactMde extends Component {
                                 return <HeaderItem key={j} icon={c.icon} tooltip={c.tooltip} onClick={() => this.executeCommand(c)} />;
                             })
                         }
-                    </HeaderGroup>)
+                    </HeaderGroup>))
                 }
             </div>);
         }
