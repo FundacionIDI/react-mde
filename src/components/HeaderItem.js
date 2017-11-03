@@ -26,9 +26,9 @@ const HeaderItem = ({ icon, onClick, tooltip }) => {
 HeaderItem.propTypes = {
     tooltip: PropTypes.string,
     onClick: PropTypes.func.isRequired,
-    icon: React.PropTypes.oneOfType([
-        React.PropTypes.string,
-        React.PropTypes.element
+    icon: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.element
     ]).isRequired
 };
 
